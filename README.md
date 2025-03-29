@@ -3,7 +3,7 @@
 ![Mental Health Chatbot](https://img.shields.io/badge/Status-Active-brightgreen)  
 *Empowering well-being, one conversation at a time.*
 
-Welcome to the **Mental Health Chatbot**, a compassionate AI-powered assistant designed to provide emotional support and a listening ear. Built with cutting-edge technologies like LangChain, Grok, and ChromaDB, this project aims to offer thoughtful, empathetic responses to users while leveraging a knowledge base of mental health resources. Whether you're feeling down or just need someone to talk to, this chatbot is here to help—though for serious concerns, we always recommend reaching out to a licensed professional.
+Welcome to the **Mental Health Chatbot**, a compassionate AI-powered assistant designed to provide emotional support and a listening ear. Built with cutting-edge technologies like LangChain, Groq API, and ChromaDB, this project aims to offer thoughtful, empathetic responses to users while leveraging a knowledge base of mental health resources. Whether you're feeling down or just need someone to talk to, this chatbot is here to help—though for serious concerns, we always recommend reaching out to a licensed professional.
 
 This project was developed as part of an effort to blend AI with mental health support, showcasing how technology can be a force for good. Hosted on Gradio for an interactive experience, it’s ready to assist and easy to deploy!
 
@@ -22,7 +22,7 @@ This project was developed as part of an effort to blend AI with mental health s
 ## 🛠️ Tech Stack
 
 - **LangChain**: For managing conversational AI workflows and document retrieval.
-- **Grok (xAI)**: The backbone LLM for generating human-like responses.
+- **Groq (API)**: The bacbone LLM of llama-3.3-70b-versatile for Prompt and Accurate Response to Match Emotional Quotient of People.
 - **ChromaDB**: A vector database for storing and retrieving document embeddings.
 - **HuggingFace Embeddings**: `sentence-transformers/all-MiniLM-L6-v2` for text embeddings.
 - **PyPDF & Text Splitting**: To process and chunk PDF documents for efficient retrieval.
@@ -145,7 +145,7 @@ This project is licensed under the MIT License—see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **xAI**: For building Grok and advancing AI research.
+- **Groq**: For Providing Backend Support to llm Calls.
 - **LangChain**: For simplifying conversational AI development.
 - **Gradio**: For making UI creation a breeze.
 - **HuggingFace**: For powerful embedding models.
