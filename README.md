@@ -121,6 +121,23 @@ graph TD
 
 ---
 
+## 📸 Demo
+
+### Screenshots
+Here’s what the Mental Health Chatbot looks like in action:
+
+![Chatbot UI](https://github.com/Say2hub/Mental_Health_Chatbot/blob/main/assets/UI_Chat.png)  
+*The Gradio interface where users interact with the chatbot.*
+
+![Sample Conversation](https://github.com/Say2hub/Mental_Health_Chatbot/blob/main/assets/demo_1.png)  
+*An example of the chatbot providing an empathetic response.*
+
+### Video Demonstration
+Watch the chatbot in action:
+
+![Demo Video](https://github.com/Say2hub/Mental_Health_Chatbot/blob/main/assets/Demo_Working.mp4)  
+*A short demo showing the chatbot responding to user input.*
+
 ## ⚙️ Customization
 
 - **Prompt Tuning**: Modify the `prompt_template` in the code to adjust the chatbot’s tone or focus.
