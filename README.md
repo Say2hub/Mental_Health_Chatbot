@@ -89,7 +89,23 @@ mental-health-chatbot/
 ├── requirements.txt    # List of Python dependencies
 └── README.md           # You’re reading it!
 ```
+## Project_Architecture Overview
+```mermaid
+graph TD
+    A[User Input<br><i>Gradio Interface</i>] -->|Query| B[Document Retrieval<br><i>ChromaDB</i>]
+    C[Embedding Model<br><i>HuggingFace MiniLM</i>] -->|Embeddings| B
+    A -->|Query + History| D[Prompt Construction<br><i>LangChain</i>]
+    B -->|Context| D
+    D -->|Formatted Prompt| E[Language Model<br><i>Grok llama-3.3-70b</i>]
+    E -->|Response| F[Response Output<br><i>Gradio UI</i>]
 
+    style A fill:#lightblue
+    style B fill:#lightgreen
+    style C fill:#lightyellow
+    style D fill:#lightcoral
+    style E fill:#lightpink
+    style F fill:#lightblue
+```
 ---
 
 ## 🎯 How It Works
