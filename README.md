@@ -1,6 +1,9 @@
 # Mental Health Chatbot 🧠🤖
 
 ![Mental Health Chatbot](https://img.shields.io/badge/Status-Active-brightgreen)  
+
+![image](https://github.com/user-attachments/assets/91c5fd32-3b51-4e61-a717-0878e8ae5691)
+
 *Empowering well-being, one conversation at a time.*
 
 Welcome to the **Mental Health Chatbot**, a compassionate AI-powered assistant designed to provide emotional support and a listening ear. Built with cutting-edge technologies like LangChain, Groq API, and ChromaDB, this project aims to offer thoughtful, empathetic responses to users while leveraging a knowledge base of mental health resources. Whether you're feeling down or just need someone to talk to, this chatbot is here to help—though for serious concerns, we always recommend reaching out to a licensed professional.
