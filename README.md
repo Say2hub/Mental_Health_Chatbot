@@ -45,8 +45,8 @@ This project was developed as part of an effort to blend AI with mental health s
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Say2hub/mental-health-chatbot.git
-   cd mental-health-chatbot
+   git clone https://github.com/Say2hub/Mental_health_chatbot.git
+   cd Mental_Health_Chatbot
    ```
 
 2. **Install Dependencies**
